@@ -1,0 +1,307 @@
+body {
+    background-color: #aeb48d;
+    font-size: 20px;
+}
+
+
+p {
+    font-family: "Arial, Helvetica, sans-serif";
+    font-size: 28px;
+}
+a {
+        text-decoration: none;
+
+}
+#google_translate_element {
+     position: relative;
+     top: -150%;
+     left: 24%;
+     width: 157px;
+}
+#home {
+    display:block;
+}
+#information {
+    display:none;
+}
+#map {
+    display:none;
+}
+#history {
+    display:none;
+}
+#placesToVisit {
+    display:none;
+}
+#thingsToDo {
+    display:none;
+}
+#thingsToAvoid {
+    display:none;
+}
+#whereToStay {
+    display:none;
+}
+#forum {
+    display: none;
+}
+
+.mapLabel {
+    position: relative;
+    left: 46.5%;
+}
+
+#mapImage {
+    position: relative;
+    /* left: 43%; */
+}
+
+.selectCountryText {
+    color: white;
+    font-size: 21px;
+    margin: inherit;
+    position: relative;
+    top: -261px;
+    left: 35%;
+    /* margin-left:  145px; */
+}
+.loginText {
+    font-size: 21px;
+    position:  relative;
+    text-align: right;
+    /* margin-top: -230px; */
+    color: white;
+    display: block;
+    top: -360%;
+ }
+
+table, th, td {
+   border: 1px solid black;
+    text-align:  center;
+}
+ 
+form {
+  margin: 117px auto;
+  width:300px;
+}
+#login {
+  padding:10px;
+  width: 108%;
+}
+#register {
+  padding:10px;
+  width: 108%;
+}
+label {
+/*  cursor:pointer*/
+}
+#form-switch {
+  display:none;
+   
+}
+#register-form {
+  display:none
+     
+}
+#form-switch:checked~#register-form {
+  display:block;
+    position: relative;
+    top: 30%;
+}
+#form-switch:checked~#login-form {
+  display:none;
+    position: relative;
+    top: 30%;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    width: 8.5%;
+    height: 29px;
+    color: white;
+    text-align: center;
+    padding: 10px 41.97px;
+    text-decoration: none;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    left: 40%;
+    top: -100%;
+}
+
+.header {
+    height: 98px;
+    border-bottom: 0px;
+}
+
+.logo {display: block;position: relative;/* left: -108%; */top: -55%;z-index:  -3;/* margin-left: -13px; */}
+
+.flagImage {
+    display: block;
+    position: relative;
+    top: -270px;
+    left: 54%;
+}
+.dropdown-content {
+    display:block;
+    position: relative;
+    background-color: #f6f6f6;
+    min-width: 224px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+    font-size: 16px;
+    left: 60%;
+    top: -250px;
+}
+
+/*
+#londoneyeMap{
+    border:0;
+    position:relative;
+    left:40%;
+    top:-278px;
+}
+*/
+.Map {
+    border:0;position:relative;left:40%;top:-215px;
+}
+.dropdown-content option {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+#usermsg {
+    width: 181%;
+    position:  relative;
+    left: -65%;
+    text-align: left;
+    align-content:  center;
+    top: 130px;
+    }
+#submit { width: 60px; }
+  
+#chatbox {
+    text-align: center;
+    position:  relative;
+    margin:0 auto;
+    margin-bottom: 6px;
+    padding: 43px;
+    background:#fff;
+    height: 56%;
+    top: 10%;
+    width: 60%;
+    border: 6px solid #adf8a3;
+    overflow:auto;
+    }
+.dropdown option:hover {background-color: #ddd}
+
+.navbar a:hover{
+    background-color: red;
+}
+.show {display:block;}
+
+.error { color: #ff0000; }
+  
+#menu {padding:12.5px 25px 12.5px 25px;border: 2px solid #adf8a3;}
+  
+.welcome {
+    text-align:  center;
+    /* color: black; */
+    font-size:  25px;
+    /* border:  3px solid; */
+}
+  
+.logout { float:right; }
+#wrapper, #loginform {
+    margin:0 auto;
+    padding-bottom:25px;
+    background: #6585a1;
+    width: 50%;
+    height: 865px;
+     border: 3px solid #adf8a3; */
+    }
+
+.msgln { margin:0 0 0 0;border: 1px solid black }
+
+#submitmsg {
+    
+margin-top: 6px;
+    
+padding: 13px;
+    
+width: 36%;
+    
+position: relative;
+    
+left: 133%;
+    
+top: 79px;
+    
+border: 2px solid #ccc;
+}
+
+#submitmsg:hover {
+  border: 2px solid #000;
+
+}
+
+
+#clearlog {
+    
+margin-top: 6px;
+    
+padding: 13px;
+    
+width: 36%;
+    
+position: relative;
+    
+left: 133%;
+    
+top: 79px;
+    
+border: 2px solid #ccc;
+}
+
+#clearlog:hover {
+  border: 2px solid #000;
+
+}
+form {
+  margin:0 auto;
+  width:300px;
+}
+input {
+  margin-bottom:3px;
+  padding:10px;
+  width: 100%;
+  border:1px solid #CCC;
+  position:  relative;
+  /* top: 130px; */
+}
